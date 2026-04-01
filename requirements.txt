@@ -1,0 +1,13 @@
+torch>=1.12.0
+torchvision>=0.13.0
+numpy
+opencv-python
+albumentations>=1.3.0
+matplotlib
+Pillow
+tqdm
+PyYAML
+scikit-learn
+onnx
+onnxruntime
+nuscenes-devkit

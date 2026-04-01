@@ -1,0 +1,8 @@
+{
+  "test_miou": 0.9056,
+  "pixel_accuracy": 0.9564,
+  "road_iou": 0.8735,
+  "nonroad_iou": 0.9377,
+  "fps": 10.9,
+  "device": "cpu"
+}

@@ -1,0 +1,43 @@
+# Data and large files
+data/
+*.zip
+*.tar.gz
+*.pth
+# But keep the best model if you want, or just the ONNX
+# !checkpoints/best_model.pth
+
+# Python junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+.env
+site-packages/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Project-specific logs
+final_out.txt
+final_verify.txt
+pptx_verified.txt
+pptx_content.txt
+pptx_review.md
+dump.txt
+pptx_verified_v2.txt
+pptx_verified_v3.txt
+edit_pptx.py
+edit_pptx_v2.py
+edit_pptx_v3.py
+verify_pptx.py
+read_pptx.py
+pptx_verified.txt
+pptx_verified_v2.txt
+pptx_verified_v3.txt
+pptx_review.md
+dump.txt
+final_out.txt
+final_verify.txt
+*.pyc
+__pycache__/
