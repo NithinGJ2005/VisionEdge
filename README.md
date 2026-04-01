@@ -7,19 +7,19 @@
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 This project implements a **real-time drivable space segmentation** pipeline for Level 4 autonomous vehicles using a **MobileNetV2 encoder + U-Net decoder** architecture, trained **entirely from scratch** on the nuScenes dataset.
 
 **Track:** Track 2 — Real-Time Drivable Space Segmentation  
-**Team:** VisionEdge | MAHE — Dept. of CSE (AI & ML)  
+**Team:** VisionEdge | JNNCE - Dept of AIML 
 **Key Constraint:** ⚠️ No pre-trained weights — all training from scratch on nuScenes  
 
 > The model identifies "free space" — areas where an L4 vehicle can safely navigate — without relying on lane markings, even in construction zones, puddle-covered roads, or road-to-grass transitions.
 
 ---
 
-## 🏗️ Model Architecture
+##  Model Architecture
 
 ```
 Input RGB (512×256)
@@ -48,7 +48,7 @@ See `assets/architecture_diagram.png` for the full pipeline diagram.
 
 ---
 
-## 📦 Dataset Setup
+##  Dataset Setup
 
 ### Option A: nuScenes (for full training)
 
@@ -88,7 +88,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 How to Run
+##  How to Run
 
 ### 1. Generate Synthetic Data (or use nuScenes — see above)
 
@@ -133,7 +133,7 @@ python export_onnx.py \
 
 ---
 
-## 📊 Results
+##  Results
 
 ### Synthetic Dataset Demo Training (10 epochs, 200 samples)
 
@@ -206,7 +206,7 @@ visionedge-seg/
 
 ---
 
-## 🖼️ Example Outputs
+##  Example Outputs
 
 See `outputs/sample_masks/` for example segmentation outputs after training.
 
@@ -216,14 +216,13 @@ See `outputs/sample_masks/` for example segmentation outputs after training.
 
 | Name   | Role        | Skills                               |
 |--------|-------------|--------------------------------------|
-| [Name] | Team Lead   | ML Pipeline, Python, Model Training  |
-| [Name] | CV Engineer | PyTorch, Deep Learning, Segmentation |
-| [Name] | Data Eng.   | nuScenes Devkit, Preprocessing       |
-| [Name] | Edge Eng.   | ONNX, Model Optimization             |
+| Nithin G J | Team Lead   | ML Pipeline, Python, Pytorch, Model Training  |
+| Jayanth B | CV Engineer |  Deep Learning, Segmentation ,ONNX|
+| Vinay N V | Data Eng.   | nuScenes Devkit, Preprocessing ,Model Optimization |
 
 ---
 
-## 🔬 Technical Details
+## Technical Details
 
 - **No pre-trained weights** — model initialized from scratch (competition rule)
 - **Optimizer:** AdamW with CosineAnnealingLR scheduler
@@ -234,6 +233,6 @@ See `outputs/sample_masks/` for example segmentation outputs after training.
 
 ---
 
-## 📄 License
+##  License
 
 This project is submitted as part of the MAHE-Harman AI in Mobility Challenge Round 1.
