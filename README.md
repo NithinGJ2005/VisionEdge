@@ -12,7 +12,7 @@
 This project implements a **real-time drivable space segmentation** pipeline for Level 4 autonomous vehicles using a **MobileNetV2 encoder + U-Net decoder** architecture, trained **entirely from scratch** on the nuScenes dataset.
 
 **Track:** Track 2 — Real-Time Drivable Space Segmentation  
-**Team:** VisionEdge | JNNCE - Dept of AIML 
+**Team:** AI-liens | JNNCE - Dept of AIML 
 **Key Constraint:** ⚠️ No pre-trained weights — all training from scratch on nuScenes  
 
 > The model identifies "free space" — areas where an L4 vehicle can safely navigate — without relying on lane markings, even in construction zones, puddle-covered roads, or road-to-grass transitions.
