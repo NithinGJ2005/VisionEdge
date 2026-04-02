@@ -71,7 +71,7 @@ python scripts/generate_synthetic_data.py --out_dir ./data/synthetic --total 200
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ```bash
 # Clone the repo
