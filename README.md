@@ -13,6 +13,7 @@ This project implements a **real-time drivable space segmentation** pipeline for
 
 **Track:** Track 2 — Real-Time Drivable Space Segmentation  
 **Team:** AI-liens | JNNCE - Dept of AIML 
+
 **Key Constraint:** ⚠️ No pre-trained weights — all training from scratch on nuScenes  
 
 > The model identifies "free space" — areas where an L4 vehicle can safely navigate — without relying on lane markings, even in construction zones, puddle-covered roads, or road-to-grass transitions.
